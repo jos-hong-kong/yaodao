@@ -14,6 +14,8 @@
   },true);
   function load(d){if(d.firstChild)return;var f=document.createElement('iframe');f.src='https://drive.google.com/file/d/'+d.getAttribute('data-drive')+'/preview';f.allow='autoplay; fullscreen';f.setAttribute('allowfullscreen','');f.title='Video';d.appendChild(f);}
   document.querySelectorAll('.yd-drive').forEach(function(d){var box=d.closest('.et_pb_video');if(!box||!box.querySelector('.et_pb_video_overlay'))load(d);});
+  function mark(){document.querySelectorAll('.et_pb_section .et_pb_row,.et_pb_section .et_pb_column,.et_pb_section .et_pb_module').forEach(function(el){var m=getComputedStyle(el).backgroundColor.match(/[\d.]+/g);if(!m)return;var a=m.length>3?+m[3]:1;if(a<.5)return;var l=(.299*m[0]+.587*m[1]+.114*m[2])/255;if(l<.35)el.classList.add('yd-dk');});}
+  mark();window.addEventListener('load',mark);
   label();
   // Divi clones the menu for mobile after load; relabel when it does
   var mo=new MutationObserver(function(){if(false){label();mo.disconnect();}});mo.observe(document.body,{childList:true,subtree:true});

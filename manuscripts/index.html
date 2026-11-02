@@ -95,6 +95,10 @@ html[data-theme=dark] .et_pb_section [style*="color: #000000"]{}
 html[data-theme=light] .yd-sep{color:rgba(0,0,0,.3)}
 @media (max-width:980px){.yd-bar{width:90%;padding:6px 0}}
 html[lang=zh-Hans] .et_pb_text_inner{padding-bottom:1.2em}
+
+html[data-theme=light] .yd-dk{background-color:#fff!important;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+html[data-theme=light] .yd-dk *{color:#333}
+html[data-theme=light] .et_pb_section span[style*="background-color"]{background-color:transparent!important}
 </style>
 </head>
 <body class="wp-singular page-template-default page page-id-291 wp-theme-Divi et_pb_button_helper_class et_fullwidth_nav et_fixed_nav et_show_nav et_hide_primary_logo et_hide_fixed_logo et_primary_nav_dropdown_animation_expand et_secondary_nav_dropdown_animation_expand et_header_style_split et_pb_footer_columns4 et_cover_background et_pb_gutter et_pb_gutters3 et_pb_pagebuilder_layout et_smooth_scroll et_no_sidebar et_divi_theme et-db">
@@ -432,6 +436,8 @@ var et_pb_box_shadow_elements = [];
   },true);
   function load(d){if(d.firstChild)return;var f=document.createElement('iframe');f.src='https://drive.google.com/file/d/'+d.getAttribute('data-drive')+'/preview';f.allow='autoplay; fullscreen';f.setAttribute('allowfullscreen','');f.title='Video';d.appendChild(f);}
   document.querySelectorAll('.yd-drive').forEach(function(d){var box=d.closest('.et_pb_video');if(!box||!box.querySelector('.et_pb_video_overlay'))load(d);});
+  function mark(){document.querySelectorAll('.et_pb_section .et_pb_row,.et_pb_section .et_pb_column,.et_pb_section .et_pb_module').forEach(function(el){var m=getComputedStyle(el).backgroundColor.match(/[\d.]+/g);if(!m)return;var a=m.length>3?+m[3]:1;if(a<.5)return;var l=(.299*m[0]+.587*m[1]+.114*m[2])/255;if(l<.35)el.classList.add('yd-dk');});}
+  mark();window.addEventListener('load',mark);
   label();
   // Divi clones the menu for mobile after load; relabel when it does
   var mo=new MutationObserver(function(){if(false){label();mo.disconnect();}});mo.observe(document.body,{childList:true,subtree:true});

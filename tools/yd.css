@@ -23,3 +23,7 @@ html[data-theme=dark] .et_pb_section [style*="color: #000000"]{}
 html[data-theme=light] .yd-sep{color:rgba(0,0,0,.3)}
 @media (max-width:980px){.yd-bar{width:90%;padding:6px 0}}
 html[lang=zh-Hans] .et_pb_text_inner{padding-bottom:1.2em}
+
+html[data-theme=light] .yd-dk{background-color:#fff!important;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+html[data-theme=light] .yd-dk *{color:#333}
+html[data-theme=light] .et_pb_section span[style*="background-color"]{background-color:transparent!important}
