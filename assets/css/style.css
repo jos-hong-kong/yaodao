@@ -1,8 +1,8 @@
 /* Yao Dao Project — site styles. Light and dark themes share one token set. */
 
 :root {
-  --font-ui: 'Athiti', 'Noto Sans TC', system-ui, sans-serif;
-  --font-text: 'Source Serif 4', 'Noto Serif TC', 'Songti TC', serif;
+  --font-ui: 'Athiti', 'Noto Sans SC', system-ui, sans-serif;
+  --font-text: 'Source Serif 4', 'Noto Serif SC', 'Songti SC', serif;
 
   --text-xs: clamp(0.75rem, 0.72rem + 0.15vw, 0.8125rem);
   --text-sm: clamp(0.875rem, 0.84rem + 0.2vw, 0.9688rem);
@@ -61,7 +61,7 @@ body {
   line-height: 1.7;
   transition: background-color .25s var(--ease), color .25s var(--ease);
 }
-html[lang='zh-Hant'] body { line-height: 1.85; }
+:lang(zh) body { line-height: 1.85; }
 img, video, iframe { max-width: 100%; display: block; }
 a { color: var(--accent-ink); text-underline-offset: .18em; text-decoration-thickness: 1px; }
 a:hover { text-decoration-thickness: 2px; }
@@ -84,7 +84,7 @@ a:hover { text-decoration-thickness: 2px; }
 .topbar-spacer { flex: 1; }
 .wordmark { display: inline-flex; align-items: baseline; gap: .55em; text-decoration: none; color: var(--text); font-family: var(--font-ui); line-height: 1; }
 .wordmark-latin { font-weight: 700; font-size: 1.35rem; letter-spacing: .02em; }
-.wordmark-han { font-weight: 500; font-size: 1.35rem; color: var(--accent-ink); font-family: 'Noto Serif TC', serif; }
+.wordmark-han { font-weight: 500; font-size: 1.35rem; color: var(--accent-ink); font-family: 'Noto Serif SC', serif; }
 
 .icon-btn {
   display: inline-flex; align-items: center; justify-content: center; gap: var(--s2);
@@ -121,7 +121,7 @@ body.tree-collapsed .tree-panel { visibility: hidden; transform: translateX(-100
 }
 .tree-head { display: flex; align-items: center; justify-content: space-between; gap: var(--s2); flex-wrap: wrap; }
 .tree-title { font-size: var(--text-xs); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
-html[lang='zh-Hant'] .tree-title { letter-spacing: .08em; }
+:lang(zh) .tree-title { letter-spacing: .08em; }
 .tree-actions { display: flex; align-items: center; gap: var(--s2); color: var(--muted); }
 .link-btn { background: none; border: 0; padding: var(--s1) 0; font: 500 var(--text-xs)/1.2 var(--font-ui); color: var(--accent-ink); cursor: pointer; text-decoration: underline; text-underline-offset: .2em; }
 .tree-close { display: none; }
@@ -163,7 +163,7 @@ main { flex: 1; padding: var(--s8) var(--s5) var(--s16); outline: none; }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
 
 .crumbs { font-family: var(--font-ui); font-size: var(--text-xs); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 var(--s4); }
-html[lang='zh-Hant'] .crumbs { letter-spacing: .06em; }
+:lang(zh) .crumbs { letter-spacing: .06em; }
 .crumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: var(--s2); margin: 0; padding: 0; }
 .crumbs li + li::before { content: '/'; margin-right: var(--s2); color: var(--border); }
 .crumbs a { color: var(--muted); text-decoration: none; }
@@ -171,7 +171,7 @@ html[lang='zh-Hant'] .crumbs { letter-spacing: .06em; }
 .crumbs [aria-current] { color: var(--accent-ink); font-weight: 600; }
 
 .page-title { font-family: var(--font-text); font-weight: 600; font-size: var(--text-2xl); line-height: 1.12; letter-spacing: -.01em; margin: 0 0 var(--s4); max-width: 22ch; text-wrap: balance; }
-html[lang='zh-Hant'] .page-title { letter-spacing: 0; line-height: 1.3; max-width: 18ch; }
+:lang(zh) .page-title { letter-spacing: 0; line-height: 1.3; max-width: 18ch; }
 .rule { width: 56px; height: 3px; background: var(--accent); border: 0; margin: var(--s6) 0 var(--s8); }
 
 .notice { font-family: var(--font-ui); font-size: var(--text-sm); background: var(--surface-2); border-left: 3px solid var(--accent); padding: var(--s3) var(--s4); border-radius: 0 var(--radius) var(--radius) 0; margin: 0 0 var(--s8); max-width: var(--measure); }
@@ -199,7 +199,7 @@ figure.fig img { width: 100%; height: auto; border-radius: var(--radius); backgr
 .hero { padding: var(--s8) 0 var(--s6); }
 .hero-eyebrow { font-family: var(--font-ui); font-size: var(--text-sm); letter-spacing: .18em; text-transform: uppercase; color: var(--accent-ink); font-weight: 600; margin: 0 0 var(--s4); }
 .hero h1 { font-weight: 600; font-size: clamp(2.5rem, 1.2rem + 5.5vw, 5.5rem); line-height: 1.02; letter-spacing: -.02em; margin: 0; }
-.hero h1 .han { display: block; font-family: 'Noto Serif TC', serif; font-weight: 400; letter-spacing: .25em; color: var(--accent-ink); font-size: .62em; margin-top: .15em; }
+.hero h1 .han { display: block; font-family: 'Noto Serif SC', serif; font-weight: 400; letter-spacing: .25em; color: var(--accent-ink); font-size: .62em; margin-top: .15em; }
 .hero .lead { font-size: var(--text-lg); line-height: 1.55; max-width: 36rem; margin: var(--s8) 0 0; }
 .explore { margin: var(--s16) 0 0; }
 .explore h2 { font-size: var(--text-xl); margin: 0 0 var(--s6); }

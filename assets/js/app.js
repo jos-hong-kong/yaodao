@@ -5,7 +5,7 @@
   'use strict';
 
   const LANGS = ['en', 'zh'];
-  const HTML_LANG = { en: 'en', zh: 'zh-Hant' };
+  const HTML_LANG = { en: 'en', zh: 'zh-Hans' };
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const store = {
@@ -56,6 +56,7 @@
     $$('#langSwitch button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.lang === S.lang)));
     $('#langSwitch').setAttribute('aria-label', t('lang'));
     $('#wordmark').setAttribute('href', href('home'));
+    $('.wordmark-han').textContent = S.lang === 'zh' ? '瑶道' : '瑤道';
     $('#expandAll').textContent = t('expandAll');
     $('#collapseAll').textContent = t('collapseAll');
     $('#treeClose').setAttribute('aria-label', t('closeMenu'));
@@ -364,8 +365,8 @@
       const h1s = $$('h1', d).map(h => h.textContent.trim()); $$('h1', d).forEach(h => h.remove());
       first.html = d.innerHTML;
       const latin = h1s.find(x => /[A-Za-z]/.test(x)) || 'The Yao Dao Project';
-      html = `<section class="hero"><p class="hero-eyebrow">${S.lang === 'zh' ? '道教 · 藍靛瑤 · 老撾、中國、越南' : 'Daoism · Lanten Yao · Laos, China, Vietnam'}</p>
-        <h1>${esc(latin.replace(/^The /, S.lang === 'en' ? 'The ' : ''))}<span class="han" lang="zh-Hant">瑤道</span></h1>
+      html = `<section class="hero"><p class="hero-eyebrow">${S.lang === 'zh' ? '道教 · 蓝靛瑶 · 老挝、中国、越南' : 'Daoism · Lanten Yao · Laos, China, Vietnam'}</p>
+        <h1>${esc(latin.replace(/^The /, S.lang === 'en' ? 'The ' : ''))}<span class="han" lang="zh-Hans">${S.lang === 'zh' ? '瑶道' : '瑤道'}</span></h1>
         <p class="lead">${leadHTML}</p></section>${state !== 'full' && S.lang === 'zh' ? `<p class="notice" role="status">${esc(t(state === 'none' ? 'noTranslation' : 'partialTranslation'))}</p>` : ''}
         ${renderBlocks(data, heads)}${exploreTree()}`;
     } else {

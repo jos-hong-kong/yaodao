@@ -10,7 +10,7 @@ Draft. The site is public in GitHub but hidden from search engines (see "Staying
 
 - Expandable site tree as the main menu. Branches open and close; selecting a node loads that page in place. The current page lists its own sections as leaves and highlights the one being read. Keyboard support follows the WAI-ARIA tree pattern (arrow keys, Home, End, Space).
 - Light and dark themes (first visit follows the system setting; the choice is remembered).
-- English and Traditional Chinese (繁體中文). The choice is remembered and is part of the address, so a link carries its language.
+- English and Simplified Chinese (Mandarin, 简体中文). The choice is remembered and is part of the address, so a link carries its language.
 - Videos load only when played. Large masters stay in Google Drive; small clips and YouTube links are embedded directly.
 - Addresses look like `#/en/research` or `#/zh/team/team-leaders`.
 

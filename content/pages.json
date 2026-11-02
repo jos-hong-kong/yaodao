@@ -4,7 +4,7 @@
       "id": "home",
       "title": {
         "en": "Yao Dao",
-        "zh": "瑤道"
+        "zh": "瑶道"
       }
     },
     {
@@ -18,14 +18,14 @@
           "id": "genesis",
           "title": {
             "en": "Genesis",
-            "zh": "緣起"
+            "zh": "缘起"
           }
         },
         {
           "id": "daoism-among-the-yao",
           "title": {
             "en": "Daoism among the Yao",
-            "zh": "瑤族中的道教"
+            "zh": "瑶族中的道教"
           }
         }
       ]
@@ -55,7 +55,7 @@
           "id": "ethnofilms",
           "title": {
             "en": "Ethnofilms",
-            "zh": "民族誌影片"
+            "zh": "民族志影片"
           }
         }
       ]
@@ -64,14 +64,14 @@
       "id": "ethnohistory",
       "title": {
         "en": "Ethnohistory",
-        "zh": "民族歷史"
+        "zh": "民族历史"
       },
       "children": [
         {
           "id": "maps",
           "title": {
             "en": "Maps",
-            "zh": "地圖"
+            "zh": "地图"
           }
         }
       ]
@@ -80,7 +80,7 @@
       "id": "team",
       "title": {
         "en": "Team",
-        "zh": "團隊"
+        "zh": "团队"
       }
     },
     {
@@ -94,7 +94,7 @@
       "id": "events",
       "title": {
         "en": "Events",
-        "zh": "活動"
+        "zh": "活动"
       }
     }
   ],

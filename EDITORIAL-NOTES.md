@@ -19,17 +19,18 @@ Source: yaodao.hku.hk pages read through its public WordPress API on 2 November 
 - Footer links to hkihss.hku.hk were copied from the old site and should be checked.
 
 ## Chinese version
-Traditional Chinese, drafted for review by a specialist. Translated: interface, Home, Research, Ethnohistory, Maps, Events. The other pages show English with a notice. Terms to check:
+Simplified Chinese (Mandarin), drafted for review by a specialist. Translated: interface, Home, Research, Ethnohistory, Maps, Events. The other pages show English with a notice until translated. Terms to check:
 
 | English | Used |
 |---|---|
-| Lanten Yao | 藍靛瑤 |
+| Lanten Yao | 蓝靛瑶 |
 | Yao Mun | kept as "Yao Mun" |
 | ordination (度戒) | 度戒 |
-| Celestial Masters | 天師道 |
-| spirit-armies | 陰兵 |
-| ritual priests and masters | 祭司與法師 |
+| Celestial Masters | 天师道 |
+| spirit-armies | 阴兵 |
+| ritual priests and masters | 祭司与法师 |
 | Luang Namtha | 琅南塔 |
-| Laos | 老撾 |
-| General Research Fund | 優配研究金 |
+| Laos | 老挝 |
+| General Research Fund | 优配研究金 (English name kept beside it) |
 | Schipper | 施舟人 |
+| Project name | 瑤道 in English mode (as on the old site), 瑶道 in Chinese mode |
