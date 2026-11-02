@@ -102,3 +102,6 @@ for pid,slug in PAGES.items():
         d=OUT+'/'+('zh/' if lang=='zh' else '')+(slug+'/' if slug else '')
         os.makedirs(d,exist_ok=True); open(d+'index.html','w',encoding='utf-8').write(s)
 print('\n'.join(log))
+
+import subprocess
+subprocess.run([sys.executable, ROOT + '/tools/polish.py', OUT], check=True)
