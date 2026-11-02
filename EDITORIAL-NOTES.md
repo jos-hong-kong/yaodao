@@ -3,12 +3,11 @@
 Source: yaodao.hku.hk pages read through its public WordPress API on 2 November 2026. Text is carried over verbatim except for the items below.
 
 ## Changes made on purpose
-- Team: Joseba Estévez and David A. Palmer are Team Leaders. Martin Tse moved to Collaborators; his full original biography is kept under "Read profile".
+- Team: Joseba Estévez and David A. Palmer remain Team Leaders. Martin Tse's entry (photo and full original biography, unchanged) moved to the top of Collaborators.
 - Research page: "Martin Tse, who is co-leader of the Yao Dao Project" changed to "a collaborator of the Yao Dao Project", to match the new Team page.
 - Home page: Schipper's first name "Kristopher" corrected to "Kristofer" (the Research page already used this spelling).
-- Ethnofilms page: "(right)" and "(below)" changed to "(first film below)" and "(second film below)", because the videos are now stacked.
-- Genesis and Daoism among the Yao were not in the old menu. They now sit under Research.
-- Interface and layout: justified grey text replaced with left-aligned text at higher contrast; footer repeated on every page instead of inside page bodies.
+- Genesis and Daoism among the Yao are not in the menu, as on the old site.
+- Design and layout: unchanged from the old site.
 
 ## Needs the team's decision
 - Events page lists 2019 to 2021 events marked "Details coming soon". ICAS12 (Kyoto, 24 to 27 August 2021) has passed.
