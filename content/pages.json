@@ -1,0 +1,110 @@
+{
+  "tree": [
+    {
+      "id": "home",
+      "title": {
+        "en": "Yao Dao",
+        "zh": "瑤道"
+      }
+    },
+    {
+      "id": "research",
+      "title": {
+        "en": "Research",
+        "zh": "研究"
+      },
+      "children": [
+        {
+          "id": "genesis",
+          "title": {
+            "en": "Genesis",
+            "zh": "緣起"
+          }
+        },
+        {
+          "id": "daoism-among-the-yao",
+          "title": {
+            "en": "Daoism among the Yao",
+            "zh": "瑤族中的道教"
+          }
+        }
+      ]
+    },
+    {
+      "id": "manuscripts",
+      "title": {
+        "en": "Manuscripts",
+        "zh": "手抄本"
+      }
+    },
+    {
+      "id": "oral-stories",
+      "title": {
+        "en": "Oral Stories",
+        "zh": "口述故事"
+      }
+    },
+    {
+      "id": "films",
+      "title": {
+        "en": "Films",
+        "zh": "影片"
+      },
+      "children": [
+        {
+          "id": "ethnofilms",
+          "title": {
+            "en": "Ethnofilms",
+            "zh": "民族誌影片"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ethnohistory",
+      "title": {
+        "en": "Ethnohistory",
+        "zh": "民族歷史"
+      },
+      "children": [
+        {
+          "id": "maps",
+          "title": {
+            "en": "Maps",
+            "zh": "地圖"
+          }
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "title": {
+        "en": "Team",
+        "zh": "團隊"
+      }
+    },
+    {
+      "id": "publications",
+      "title": {
+        "en": "Publications",
+        "zh": "出版物"
+      }
+    },
+    {
+      "id": "events",
+      "title": {
+        "en": "Events",
+        "zh": "活動"
+      }
+    }
+  ],
+  "translated": {
+    "zh": [
+      "home",
+      "research",
+      "ethnohistory",
+      "maps",
+      "events"
+    ]
+  }
+}

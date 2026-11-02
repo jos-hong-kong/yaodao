@@ -1,0 +1,3 @@
+# Draft site: reachable only by people who hold the link.
+User-agent: *
+Disallow: /

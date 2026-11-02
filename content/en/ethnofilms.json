@@ -1,0 +1,24 @@
+{
+ "slug": "ethnofilms",
+ "title": "Ethnofilming",
+ "blocks": [
+  {
+   "t": "html",
+   "html": "<h2>Bridging Cultures Through Ethnographic Filmmaking</h2>"
+  },
+  {
+   "t": "html",
+   "html": "<p>In collaboration with filmmaker Peter Livermore and his company Seven Orients Films, and with members of the Lanten community, the Yao Dao Project has developed a series of documentary outputs grounded in participatory and locally engaged research. The first of these is a 9-minute documentary (first film below), produced as the opening piece for Joseba Estevez’s Lanten exhibition at the Ethnographic Museum of Luang Namtha, designed to foreground community voices and ritual life. A 18-minute version (second film below) was developed in parallel and has been deposited with the National Library of Laos, ensuring long-term accessibility and preservation within a national cultural institution and welcoming visitors interested in heritage preservation and cultural promotion initiatives.</p>"
+  },
+  {
+   "t": "video",
+   "id": "museum-9min",
+   "poster": "media/img/2026__06__Museum_cover-1.png"
+  },
+  {
+   "t": "video",
+   "id": "anthro-short",
+   "poster": "media/img/2026__06__Short_cover.png"
+  }
+ ]
+}

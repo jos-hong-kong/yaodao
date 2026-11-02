@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+.vercel/
+*.log
+# Large masters stay in Google Drive, never in git
+*.mov
+*.mkv
+media/video/*.mp4
+!media/video/filmfestival.mp4

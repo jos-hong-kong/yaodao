@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yao Dao Project 瑤道</title>
+  <meta name="description" content="The Yao Dao Project studies the role of Daoism in the communities of the Yao Mun, the Lanten Yao society that straddles the borders between Laos, China and Vietnam.">
+  <!-- Draft preview: reachable only by those who hold the link. -->
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="color-scheme" content="dark light">
+  <link rel="icon" href="media/img/2021__03__favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    /* Apply stored or system theme before first paint to avoid a flash. */
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('yd-theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') {
+        t = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      }
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+  <header class="topbar">
+    <button class="icon-btn tree-toggle" id="treeToggle" type="button" aria-controls="treePanel" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 6h16M4 12h10M4 18h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <span class="tree-toggle-label" data-i18n="menu">Menu</span>
+    </button>
+
+    <a class="wordmark" id="wordmark" href="#/en/home" aria-label="Yao Dao Project 瑤道, home">
+      <span class="wordmark-latin">Yao Dao</span><span class="wordmark-han" lang="zh-Hant">瑤道</span>
+    </a>
+
+    <div class="topbar-spacer"></div>
+
+    <div class="seg" role="group" aria-label="Language" id="langSwitch">
+      <button type="button" data-lang="en" lang="en">EN</button>
+      <button type="button" data-lang="zh" lang="zh-Hant">中文</button>
+    </div>
+
+    <button class="icon-btn" id="themeToggle" type="button" aria-pressed="false">
+      <svg class="ic-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <svg class="ic-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+      <span class="sr-only" id="themeLabel">Theme</span>
+    </button>
+  </header>
+
+  <div class="shell">
+    <div class="scrim" id="scrim" hidden></div>
+
+    <aside class="tree-panel" id="treePanel" aria-label="Site tree">
+      <div class="tree-head">
+        <span class="tree-title" data-i18n="treeLabel">Site tree</span>
+        <div class="tree-actions">
+          <button type="button" class="link-btn" id="expandAll" data-i18n="expandAll">Expand all</button>
+          <span aria-hidden="true">·</span>
+          <button type="button" class="link-btn" id="collapseAll" data-i18n="collapseAll">Collapse all</button>
+          <button type="button" class="icon-btn tree-close" id="treeClose" aria-label="Close menu">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+      </div>
+      <p class="tree-hint" data-i18n="treeHint"></p>
+      <nav id="tree" class="tree" aria-label="Site tree"></nav>
+      <p class="tree-draft" data-i18n="draft"></p>
+    </aside>
+
+    <div class="stage">
+      <main id="main" tabindex="-1"></main>
+      <footer class="footer">
+        <p>
+          <a href="https://www.hkihss.hku.hk/en/research/research-clusters/asian-religious-connections/" target="_blank" rel="noopener" data-i18n="footerAsiar"></a><br>
+          <a href="https://www.hkihss.hku.hk/en/" target="_blank" rel="noopener" data-i18n="footerHkihss"></a><br>
+          <a href="https://www.hku.hk/" target="_blank" rel="noopener" data-i18n="footerHku"></a>
+        </p>
+        <p class="footer-small" data-i18n="copyright"></p>
+      </footer>
+    </div>
+  </div>
+
+  <dialog id="lightbox" aria-label="Image viewer">
+    <button type="button" class="lb-close icon-btn" id="lbClose" aria-label="Close">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+    <button type="button" class="lb-nav lb-prev icon-btn" id="lbPrev" aria-label="Previous image">
+      <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <figure><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+    <button type="button" class="lb-nav lb-next icon-btn" id="lbNext" aria-label="Next image">
+      <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </dialog>
+
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>

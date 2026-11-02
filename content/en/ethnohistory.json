@@ -1,0 +1,20 @@
+{
+ "slug": "ethnohistory",
+ "title": "Ethnohistory",
+ "blocks": [
+  {
+   "t": "html",
+   "html": "<h2>Ethnohistory</h2>\n<p class=\"soon\">~ Coming soon ~</p>"
+  },
+  {
+   "t": "image",
+   "src": "media/img/2023__09__275743336_495003768675223_7070242097235762500_n.jpg",
+   "alt": ""
+  },
+  {
+   "t": "image",
+   "src": "media/img/2023__09__275604361_495003388675261_4831294256334931178_n.jpg",
+   "alt": ""
+  }
+ ]
+}

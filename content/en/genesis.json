@@ -1,0 +1,23 @@
+{
+ "slug": "genesis",
+ "title": "Genesis",
+ "blocks": [
+  {
+   "t": "html",
+   "html": "<h3>This project builds on the first in-depth anthropological study of the lived ritual tradition of a Lanten Yao community in Laos in the holistic context of its social and economic life, conducted over five years of participant-observation by Joseba Estevez, who is the Senior Research Assistant for this project. His doctoral research on \"The role of ritual experts among the Lanten of Laos\" was conducted through his training in the social anthropology of Southeast Asia, during which Mr. Estevez learned the Lao language and the local Lanten dialect. During this research, Mr Estevez acquired rich anthropological data about the culture, kinship, exchange and ritual of the Lanten Yao, acquiring a comprehensive local view of Lanten ritual priests, and their role in the local society, economy and culture (Estevez 2016a, 2016b, 2019, forthcoming). This holistic ethnological study is the subject of Mr. Estevez’s doctoral dissertation, to be submitted to the University of Münster in April 2020.</h3>\n\n<p>The field research conducted among the Lanten brought to light the focal importance of the ritual masters’ Chinese manuscripts for the implementation and reproduction of their socio-cosmological order. Since Chinese religion and Daoism are outside of Mr. Estevez’s field of study, he partnered with the PI of this proposal, David A. Palmer, to connect his research to the fields of Daoist Studies and the anthropology of Chinese religion, with the goal of allowing scholars in these fields to interpret and analyse them in the context of Chinese religious history, ethnography and ritual.<br/>​<br/>An essential prerequisite for such an undertaking was to preserve the Lanten ritual texts and make them available to scholars of Daoism and Chinese religion. Indeed, the fragile Lanten manuscripts have become the target of collectors from all around the world; they currently fetch very high prices in the international art market, and they are at risk of being purchased and dispersed in libraries and private collections, removing them from their living context and depleting the basis of Lanten religious culture. Therefore it was an urgent task to salvage these cultural resources. In 2015, Estevez and Palmer successfully applied for a grant of 30,000 GBP from the British Library’s Endangered Archives Programme for the project \"Digital Library of the Lanten Textual Heritage\" (EAP 791) from 1 Oct 2015 to 20 Dec 2017 (with Josephus Platenkamp, the doctoral advisor of Estevez, as nominal PI). The purpose of that project was to produce professional-quality scanned copies of the ritual manuscripts in the possession of the Lanten priests, as well as recordings and audio-visual documentation of their use in various ritual contexts. This project has now been concluded; 768 texts have been scanned; and the scanned copies are being stored at the British Library, the Lao National Library, the University of Hong Kong, and also provided to the owners of the original texts. Meanwhile, Palmer obtained a Seed Grant for Basic Research from the University of Hong Kong for the academic year 2017-18, to conduct preliminary field and textual research on Lanten Yao ritual from the perspective of Daoist and Chinese religious studies, and to prepare the current proposal.</p>"
+  },
+  {
+   "t": "gallery",
+   "images": [
+    "media/img/2019__09__Jos-20170812150657717.jpg",
+    "media/img/2019__09__IMG_20190223_183611-2.jpg",
+    "media/img/2019__09__IMG_20181221_124002.jpg",
+    "media/img/2019__09__IMG_20190311_172614-1.jpg",
+    "media/img/2019__09__IMG_20190223_145735.jpg",
+    "media/img/2019__09__IMG_20190219_123229-1.jpg",
+    "media/img/2019__09__IMG_20190219_131144-1.jpg",
+    "media/img/2019__09__IMG_20190219_105711-1.jpg"
+   ]
+  }
+ ]
+}

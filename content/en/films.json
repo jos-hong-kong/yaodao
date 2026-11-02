@@ -1,0 +1,95 @@
+{
+ "slug": "films",
+ "title": "Films",
+ "blocks": [
+  {
+   "t": "html",
+   "html": "<h1>The Yao Dao Documentaries</h1>"
+  },
+  {
+   "t": "html",
+   "html": "<p>Since 2019, the Yao Dao Project has collaborated with Laos-based filmmaker Peter Livermore and his company Creative Seven Arts – Seven Orients to produce documentaries on the preservation of Lanten cultural heritage in northern Laos. This body of work ranges from anthropological films portraying contemporary Lanten society and culture to more focused accounts of cultural practices and knowledge that are increasingly endangered as \"modernity\" reaches Lanten communities and younger generations face new challenges.</p>\n\n<p>Two documentaries specifically highlight the role of the Yao Dao Project in this process. The first, <em>The Lanten </em>(29 minutes),  funded by the European Union, presents the project’s major activities in Laos, including the digitization of manuscripts, the preservation of oral stories, and literacy initiatives. The second,<em> The</em> <em>Yao Dao Project</em>, funded by the University of Hong Kong, showcases additional supporting projects that are also essential to preserving and promoting Lanten heritage in Laos, while strengthening connections between the Lanten and their \"cousins\" in China and Vietnam.</p>\n<p><em>The Lanten</em> premiered at the European Film and Food Festival in Vientiane on 29-30 November 2019, where it opened the program and was introduced by EU Ambassador Leo Faber. The film translates Estevez’s ethnographic research and heritage preservation projects into a form accessible to general audiences, a challenge requiring close creative dialogue throughout production. Achieving authentic narratives in that context depends precisely on the long-term relationships with Lanten communities that the Yao Dao Project had built over years of sustained community engagement in Luang Namtha province.</p>\n<p>The film’s twenty-nine minutes provide an introduction to Lanten society as well as the two initiatives dedicated to the preservation of its oral and textual heritage—traditions whose survival is far from assured.</p>\n"
+  },
+  {
+   "t": "video",
+   "id": "the-lanten",
+   "poster": "media/img/2026__06__the-Lanten-EU.png"
+  },
+  {
+   "t": "html",
+   "html": "<p>A short background on the film is necessary. In April 2018, representatives of the European Union and Australian embassies, BEQUAL Laos, the Lao Department of Foreign Affairs and Trade (DFAT), the Lao Ministry of Education and Sports (MoES), and the Lao Ministry of Information, Culture, and Tourism (MoICT) visited the Lanten community in Nam Dee Village, Luang Namtha, northern Laos. During this visit, they were introduced to Lanten society as well as to the ongoing projects for preserving Lanten oral and textual heritage. Hosted by Joseba Estevez, together with the chairs and team of the National Library, his local Lanten team, and several Lanten elders serving as community representatives and cultural consultants, the meeting provided an important opportunity to discuss the challenges the Lanten society was currently facing, as well as the Yao Dao projects and related research.</p>\n<p>This first meeting in Nam Dee Village was followed by several others in Vientiane. As the Lanten community gained greater visibility, its concerns became a matter of public interest. A series of meetings with various branches of the Lao government, as well as donors and project stakeholders, helped define shared interests, the documentary format, and production details.</p>\n<p>During this period, the Laos-based team also met Peter Livermore in Luang Namtha. A prolific English filmmaker with more than twenty years of experience working in Laos (at that time). Peter was, indeed, filming another documentary for BEQUAL-Laos. After discussions between Joseba and Peter on ethnographic filmmaking and possible collaboration, Livermore and his company, Creative Seven Arts – Seven Orients, were selected to film the documentaries in Luang Namtha. The production was carried out in collaboration with Joseba Estevez, with technical support from BEQUAL-Laos and support from the European Union Delegation to Laos, under the aegis of the Lao Ministry of Information, Culture, and Tourism, the Lao Ministry of Education and Sports, and the Lao Department of Foreign Affairs and Trade. Given the high profile of the parties involved, the production required more than a year of coordination.</p>"
+  },
+  {
+   "t": "image",
+   "src": "media/img/2026__03__EU_Screenshot.png",
+   "alt": "EU Embassy to Laos in Nam Dee"
+  },
+  {
+   "t": "image",
+   "src": "media/img/2026__03__Leo-Faber.png",
+   "alt": "Leo Faber speech"
+  },
+  {
+   "t": "blurb",
+   "title": "HKU RAE 2026",
+   "img": "media/img/2026__06__rae2026logo1.jpg",
+   "html": "<p>The Research Assessment Exercise (RAE) 2026 is Hong Kong’s formal framework for evaluating the quality and broader societal impact of academic research, with particular attention to how scholarship engages and benefits communities. As part of this endeavor, the Yao Dao Project presents its impact case, developed for the Faculty of Social Sciences at the University of Hong Kong (HKU FOSS). </p>\n<p>The testimonies featured in this companion clip (at upper right) highlight the practices, experiences, and lived significance of the Yao Dao Project among the Lanten of Laos. This preview will be updated with a full documentary in due course. </p>"
+  },
+  {
+   "t": "video",
+   "id": "rae-impact-case",
+   "poster": "media/img/2026__06__impact-case.png"
+  },
+  {
+   "t": "video",
+   "id": "rae-youtube",
+   "poster": "media/img/2026__06__RAE.png"
+  },
+  {
+   "t": "html",
+   "html": "<h1>The Filming in Nam Dee and Nam Lue Villages, Luang Namtha</h1>"
+  },
+  {
+   "t": "html",
+   "html": "<p>Once the Lao government (MoES, MoICT, and DFAT) approved the project and its timeline, the crews, local teams, and representatives of all participating institutions gathered in Luang Namtha in February 2019 to meet their provincial and district counterparts. After almost a year of preparation, production began.</p>\n<p>The communities of Nam Dee and Namlue were closely involved in the filming. The villages were cleaned and prepared to welcome the guests, locations were selected, and skilled artisans and ritual specialists willing to appear on camera were invited to participate. Everyone visible in the documentaries is a community member rather than a professional actor, so the arrival of cameras, lighting, and drones generated enormous excitement—especially among children, who were fascinated by the equipment.</p>\n<p>Over the course of a week of intensive work, with filming often continuing into the night, interviews and shoots in Luang Namtha proceeded smoothly. Peter Livermore and his crew operated three main cameras simultaneously, adopting an organic filming style that allowed events and people to unfold and speak for themselves. </p>\n<p>This documentary presents the work of the Yao Dao team in Laos, the committed support of Lao government agencies, the contributions of partner institutions, and—most importantly—the active engagement of the Lanten community, who were given space to voice their concerns and aspirations. Structured around a kind of yin–yang narrative, the film juxtaposes the voices of Lanten women and men, their everyday lives, and the challenges they currently face, with the forms of stewardship and support provided by the Yao Dao projects in digitising and transmitting Lanten cultural heritage to younger generations.</p>"
+  },
+  {
+   "t": "image",
+   "src": "media/img/2021__02__52576452_2259779880957056_1685882716467232768_n.jpg",
+   "alt": ""
+  },
+  {
+   "t": "image",
+   "src": "media/img/2021__02__IMG_20190219_132012-1-scaled.jpg",
+   "alt": ""
+  },
+  {
+   "t": "image",
+   "src": "media/img/2021__02__52923156_2261365757465135_7302249920021397504_o.jpg",
+   "alt": ""
+  },
+  {
+   "t": "image",
+   "src": "media/img/2021__02__IMG_20190218_211348-scaled.jpg",
+   "alt": ""
+  },
+  {
+   "t": "html",
+   "html": "<h1>The European Film and Food Festival </h1>"
+  },
+  {
+   "t": "html",
+   "html": "<p>The film <em>The Lanten</em> opened the European Film and Food Festival organized by the European Union Delegation to Laos on 29–30 November 2019. The outdoor screenings brought to the capital the everyday life and challenges of a small Lanten community in the far north of the country, and the film was warmly received by audiences, who recognized in it concerns shared by many communities in Laos and neighbouring countries.</p>\n<p>This narrative arc is being completed in March 2021, when the new EU Ambassador to Laos plans to visit Nam Dee Village to screen <em>The Lanten</em> for the very community that made the film possible. The same visit will create opportunities to finalise the ethnographic documentary, scheduled for completion by the end of 2021, which the Yao Dao team intends to present at conferences and academic events before making both films publicly available on their dedicated website.</p>"
+  },
+  {
+   "t": "video",
+   "id": "film-festival",
+   "poster": "media/img/2021__02__77137875_2468472426754466_7718950382973485056_n.jpg"
+  },
+  {
+   "t": "image",
+   "src": "media/img/2026__04__Mekong-cinema.png",
+   "alt": "Mekong cinema"
+  }
+ ]
+}

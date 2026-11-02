@@ -1,0 +1,57 @@
+{
+  "_note": "Large masters live in Google Drive and are embedded by file id. Drive file sharing must be 'Anyone with the link: Viewer' for the embeds to play for visitors.",
+  "the-lanten": {
+    "type": "youtube",
+    "id": "eio38NF80wM",
+    "title": {
+      "en": "The Lanten (29 min), European Union-funded documentary",
+      "zh": "《The Lanten》（29分鐘），歐盟資助紀錄片"
+    }
+  },
+  "rae-youtube": {
+    "type": "youtube",
+    "id": "tcCzIK7-dug",
+    "title": {
+      "en": "The Yao Dao Project: Ethnic Minority Heritage Preservation and Promotion in Laos",
+      "zh": "The Yao Dao Project: Ethnic Minority Heritage Preservation and Promotion in Laos"
+    }
+  },
+  "rae-impact-case": {
+    "type": "drive",
+    "id": "1jOCHlsjLwN_mfN3ED0-XoVa_Fce-YddZ",
+    "title": {
+      "en": "Yao Dao Project impact case, preview with Lanten testimonies (RAE 2026)",
+      "zh": "瑤道項目影響力案例預覽：藍靛瑤見證（RAE 2026）"
+    },
+    "bytes": 697188375,
+    "duration": "7:37"
+  },
+  "museum-9min": {
+    "type": "drive",
+    "id": "19mV_708YkUPA6OwD99TvKGmdWwSvStWb",
+    "title": {
+      "en": "Opening film for the Lanten exhibition, Ethnographic Museum of Luang Namtha",
+      "zh": "琅南塔民族學博物館藍靛瑤展覽開幕影片"
+    },
+    "bytes": 1331567233,
+    "duration": "9:12"
+  },
+  "anthro-short": {
+    "type": "drive",
+    "id": "1deVDEA207sZUmSpFKwSTj_Us0RJNskDW",
+    "title": {
+      "en": "Short ethnographic film, longer version deposited with the National Library of Laos",
+      "zh": "民族誌短片，存放於老撾國家圖書館的較長版本"
+    },
+    "bytes": 2707563324,
+    "duration": "18:27"
+  },
+  "film-festival": {
+    "type": "file",
+    "src": "media/video/filmfestival.mp4",
+    "title": {
+      "en": "European Film and Food Festival, Vientiane, 29–30 November 2019",
+      "zh": "歐洲電影與美食節，萬象，2019年11月29至30日"
+    }
+  }
+}

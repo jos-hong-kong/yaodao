@@ -1,0 +1,37 @@
+{
+ "slug": "events",
+ "title": "Events",
+ "blocks": [
+  {
+   "t": "html",
+   "html": "<h2>Yao Dao Projects Events</h2>"
+  },
+  {
+   "t": "image",
+   "src": "media/img/2021__02__ICAS12.jpg",
+   "alt": "ICAS12"
+  },
+  {
+   "t": "html",
+   "html": "<h1><strong> The Yao Dao Panel at ICAS12 – Kyoto (Japan)</strong></h1>\n<p>The Yao Dao team will host a panel on Yao Daoism at ICAS12 in Japan. A workshop hosted by our colleagues at the Institute for the Study of the Yao Culture, Kanagawa Universty and further academic exchange is on our agenda as well.</p>\n<p>Details coming soon</p>"
+  },
+  {
+   "t": "image",
+   "src": "media/img/2021__02__The_University_of_Hong_Kong.jpg",
+   "alt": "The_University_of_Hong_Kong"
+  },
+  {
+   "t": "html",
+   "html": "<h1><strong>Seminar on the Lanten Yao @HKIHSS</strong></h1>\n<p>January – July 2021</p>\n<p>Joseba Estevez is presenting the Lanten socio-cosmos at the HKIHSS this semester. Six intensive workshops (one-day long) have been scheduled. All Yao Dao team members are invited to present and discuss their research and work as well.</p>\n<p>Details coming soon</p>"
+  },
+  {
+   "t": "image",
+   "src": "media/img/2021__02__DSC0215422222.jpg",
+   "alt": ""
+  },
+  {
+   "t": "html",
+   "html": "<h1><strong>International Workshop on Yao Daoism @HKU</strong></h1>\n<p>16-17 December 2019</p>\n<p>The first meeting of the Yao Dao international advisory board with the Yao Dao team members. This event provided the opportunity to present the primary outcomes of the ongoing research together with our future plans.</p>\n<p>Details coming soon</p>"
+  }
+ ]
+}

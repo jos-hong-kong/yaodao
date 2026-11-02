@@ -1,0 +1,41 @@
+{
+ "slug": "home",
+ "title": "Yao Dao",
+ "blocks": [
+  {
+   "t": "html",
+   "html": "<h1>The Yao Dao Project</h1>\n<h1>瑤 道</h1>"
+  },
+  {
+   "t": "html",
+   "html": "<p>The Yao Dao Project studies the role of Daoism in the communities of the Yao Mun ━ Lanten Yao society, which straddles the borders between Laos, China, and Vietnam, and for whom Daoist ritual and cosmology are at the core of its collective organisation and culture.</p>\n<p>Scholars of Chinese religion and Daoism have long been fascinated by the Daoist ritual traditions of Yao ethnic communities, presently dispersed in China, Vietnam, Laos, Thailand, France and the USA. Most Yao communities have a distinctive religious system which requires all young men to undergo a Daoist 度戒 ordination ritual as part of their rite of passage to adulthood, showing structural similarities with the Celestial Masters movement of the later Han dynasty, the earliest form of organized Daoism. As part of their training for ordination, candidates for initiation are required to copy, recite and chant ritual texts written in a variant form of the Chinese script. Daoist ritual and manuscripts thus form an integral part of the culture of most Yao people, a fact that distinguishes them from most other ethnic minorities in the highlands of the Indochinese peninsula.</p>"
+  },
+  {
+   "t": "image",
+   "src": "media/img/2021__02__Construction-of-the-most-complex-Lanten-altar_-It-includes-the-the-sky.jpg",
+   "alt": "Construction of the most complex Lanten altar_ It includes the the sky"
+  },
+  {
+   "t": "html",
+   "html": "<p>The Yao Dao Project has conducted systematic anthropological research through participant observation on the culture, religion and rituals of the Lanten Yao of Luang Namtha, Laos. The team has digitized and catalogued over 2120 manuscripts being used by the ritual masters of the Lanten communities and has begun case studies of several aspects of Lanten Yao ritual and narrative, combining textual study with ethnographic data. The team is currently transcribing selected manuscripts in the \"living corpus\" of texts used by masters in ritual action, and using the contextualized living corpus to produce a set of monographs and an audio-visual web platform on the Lanten Yao religion and manuscripts.</p>\n<blockquote>\n<p>The project’s deep integration of anthropological and textual approaches will bring methodological innovation to the study of Daoism and Chinese religions, as well as to the study of manuscript cultures more generally.</p>\n</blockquote>\n<p>The project is building an international team of scholars specializing in the three countries, combining expertise in anthropology, history and Daoist studies, and mastery of the relevant languages and dialects (Lanten, Chinese, Lao and Vietnamese). The goal is to collect ethnographic, textual and oral history data to construct a systematic description of the living ritual traditions of the Yao Mun communities across the borderland of Laos, China, and Vietnam, and compares their modern-day culture and values, social organisation, cosmos, and rituals in view of the historical contingency, religious policies, and society in the borderlands of the three states of Laos, China and Vietnam, which constitute the Yao Dao Project’s Field of Anthropological Study.</p>"
+  },
+  {
+   "t": "gallery",
+   "images": [
+    "media/img/2021__02__Ritual-experts-offering-ritual-payments-to-the-deities-in-the-course-of-the-Festival-for-Planting-the-Rice.jpg",
+    "media/img/2021__02__Ordination-of-a-Lanten-priest.jpg",
+    "media/img/2019__09__IMG_20190311_171300-1.jpg",
+    "media/img/2019__09__IMG_20190311_173824.jpg"
+   ]
+  },
+  {
+   "t": "html",
+   "html": "<p>The Yao Dao Project is dedicated to the memory of Professor Kristofer Marinus Schipper (1934-2021), whose work on the Zhengyi priests, the Daoist Celestial Masters tradition, and on the Daoist Canon established the academic field of Daoist Studies and pioneered the joint use of textual and field methods in the study of Daoism.</p>\n<p>The Yao Dao Project hopes to continue in the spirit of Schipper’s work, by showing the role of Daoist ritual and texts in the collective life and social organization of Lanten Yao communities.</p>"
+  },
+  {
+   "t": "image",
+   "src": "media/img/2021__02__schipper.jpg",
+   "alt": "Kristofer Schipper"
+  }
+ ]
+}

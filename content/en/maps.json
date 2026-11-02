@@ -1,0 +1,10 @@
+{
+ "slug": "maps",
+ "title": "Maps",
+ "blocks": [
+  {
+   "t": "html",
+   "html": "<h2>Mapping the Yao Mun Socio-Cosmos</h2>\n<p class=\"soon\">~ Coming soon ~</p>"
+  }
+ ]
+}
